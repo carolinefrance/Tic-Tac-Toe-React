@@ -1,0 +1,188 @@
+/* Main CSS file for React Tic-Tac-Toe
+** Here are boiler plate styles from Create React App
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+^^^ ABOVE are boiler plate Create React App styles */
+/* BELOW are styles used in the original MiT code
+button {
+  background-color: #0c80f3;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+  }
+.game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #34495e;
+  color: rgb(204, 28, 28);
+  border: 6px solid #0b0d0f;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  }
+.grid-row {
+  border: 6px solid #739dc7;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(175, 70, 70);
+  }
+.block {
+  background-color: rgb(219, 28, 28);
+  border: 6px solid green;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20em;
+}
+*/
+
+/* BELOW are styles I created for the Tic-Tac-Toe app */
+
+.square {
+  background-color: rgba(86, 148, 169, 0.5);
+  color: white;
+}
+
+.square.x {
+  background-color: rgba(210, 210, 208, 0.5);
+  color: black;
+}
+
+.square.o {
+  background-color: rgba(132, 202, 202, 0.5);
+  color: black;
+}
+
+body {
+  background-image: url("beach.jpg");background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d7c09f;
+  z-index: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.App-header {
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  font-size: 42px;
+}
+
+button { /* this is the original style for squares */
+  background-color: rgba(86, 148, 169, 0.5);
+  border-radius: 80%;
+}
+
+.game-board { /* this is the frame that holds the squares */
+  width: 470px;
+  height: 470px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(204, 28, 28);
+  border: 6px solid #0b0d0f;
+  border-radius: 80%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  }
+
+  .grid-row {
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(86, 148, 169, 0.5);
+  }
+
+  .block {
+    background-color: rgb(219, 28, 28);
+    border: 6px solid green;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20em;
+  }
+
+  h1.top-of-page-text {
+    text-align: center;
+    font-size: x-large;
+    color: black;
+  }
+
+  .return-winner {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 80%;
+    color: black;
+    font-weight: bold;
+    padding: 10px 200px 10px 200px;
+  }
+
+image.playerO {
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+  src: url("./pearl.png");
+}
+
+image.playerX {
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+  src: url("./starfish.png");
+}
+
+.colorDkTeal {
+  background-color: rgba(86, 148, 169, 0.5);
+}
+.colorMdTeal {
+  background-color: rgba(132, 202, 202, 0.5);
+}
+.colorLtTeal {
+  background-color: rgba(210, 210, 208, 0.5);
+}
