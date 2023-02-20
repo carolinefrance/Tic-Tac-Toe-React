@@ -8,7 +8,7 @@ Last updated on 19 February 2023
 This game was part of Module 16, and it was designed to help Students with their understanding of React components. We were provided with an html and jsx file and instructed to refactor/modify the code.
 
 ## How to View
-Click this link to view the live React Tic-Tac-Toe app on GitHub Pages:
+Click this link to view the live React Tic-Tac-Toe app on GitHub Pages: [Will add link once code is working...]
 
 ## How to Run Locally
 To run this game locally on your machine, download the files from this repository. Then, follow the Getting Started with Create React App documentation below.
